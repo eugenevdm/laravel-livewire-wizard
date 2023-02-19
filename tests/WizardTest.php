@@ -18,7 +18,7 @@ beforeEach(function () {
     $this->firstStep = Livewire::test(FirstStepComponent::class);
 });
 
-$it = it('can render a wizard component', function () {
+it('can render a wizard component', function () {
     $this->wizard->assertSuccessful();
 });
 
